@@ -1,0 +1,11 @@
+--make komponent
+ng generate component home --inline-template --skip-tests
+
+-- run serve
+ng serve
+
+--make interface
+ng generate interface housinglocation
+
+-- make service
+ng generate service housing --skip-tests
